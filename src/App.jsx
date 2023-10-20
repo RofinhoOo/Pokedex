@@ -1,10 +1,12 @@
+import { AppRouter } from './AppRouter'
+import { PokemonProvider } from './context/PokemonProvider'
 
 function App() {
   return (
-    <div className="App">
-      <h1>React App</h1>
-    </div>
-  )
+    <PokemonProvider>
+      <AppRouter />
+    </PokemonProvider>
+  ) 
 }
 
-export default App
+export default App;
