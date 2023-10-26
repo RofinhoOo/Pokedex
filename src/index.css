@@ -35,9 +35,10 @@
 body {
 	font-family: 'Montserrat';
 }
+
 /* Globales */
 .container {
-	max-width: 1200px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
@@ -51,7 +52,8 @@ header {
 }
 
 .logo img {
-	width: 150px;
+	width: 200px;
+	
 }
 
 header form {
@@ -107,6 +109,8 @@ header form {
 /* Btn Filter */
 .container-filter {
 	display: flex;
+	justify-content: start;
+	
 }
 
 .icon-filter {
@@ -114,7 +118,7 @@ header form {
 	align-items: center;
 	gap: 15px;
 
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	cursor: pointer;
 }
 
@@ -129,6 +133,7 @@ header form {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 20px;
+	
 }
 
 .card-pokemon {
@@ -157,6 +162,7 @@ header form {
 
 .card-info h3 {
 	color: #333;
+	
 }
 
 .pokemon-id {
@@ -255,16 +261,17 @@ header form {
 .container-filters {
 	display: flex;
 	justify-content: center;
+	
 
 	position: fixed;
 	top: 0;
 	left: -300px;
-	width: 250px;
+	width: 150px;
 
 	color: #555;
-	background-color: #f2f2f2;
+	background-color: rgba(242, 242, 242, 0.9); /* Agrega un fondo semi transparente */
 	height: 100%;
-	padding-top: 140px;
+	padding-top: 40px;
 	transition: all 0.3s linear;
 }
 
@@ -276,7 +283,7 @@ header form {
 	display: flex;
 	flex-direction: column;
 
-	gap: 20px;
+	gap: 12px;
 }
 
 .filter-by-type span {
@@ -287,6 +294,7 @@ header form {
 .group-type {
 	display: flex;
 	gap: 10px;
+	font-size: 14px;
 
 	margin-left: 15px;
 }
@@ -360,7 +368,7 @@ Styles of Pokemon Single Page
 	margin-top: 20px;
 }
 
-.group-info{
+.group-info {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
@@ -403,20 +411,21 @@ Styles of Pokemon Single Page
 	background-color: var(--color-primary);
 	border-radius: 10px;
 }
+
 /* Search Page */
 
-.p-search{
+.p-search {
 	margin-bottom: 30px;
 	font-size: 22px;
 }
 
-.p-search span{
+.p-search span {
 	font-weight: 700;
 }
 
 /* Loader */
 
-.container-loader{
+.container-loader {
 	display: flex;
 	justify-content: center;
 	margin: 200px 0;
@@ -424,7 +433,7 @@ Styles of Pokemon Single Page
 
 /* Btn Load More */
 
-.container-btn-load-more{
+.container-btn-load-more {
 	display: flex;
 	justify-content: center;
 
@@ -432,7 +441,7 @@ Styles of Pokemon Single Page
 	margin-top: 20px;
 }
 
-.btn-load-more{
+.btn-load-more {
 	border: none;
 	padding: 15px 40px;
 	font-family: inherit;
@@ -442,7 +451,7 @@ Styles of Pokemon Single Page
 	cursor: pointer;
 }
 
-.btn-load-more:hover{
+.btn-load-more:hover {
 	background-color: var(--color-primary-hover);
 	color: #000;
 }
