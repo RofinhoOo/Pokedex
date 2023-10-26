@@ -2,6 +2,9 @@ import { useEffect, useState } from 'react';
 import { useForm } from '../hook/useForm';
 import { PokemonContext } from './PokemonContext';
 
+// PRUEBA IMPORTACIÓN
+
+
 export const PokemonProvider = ({ children }) => {
 	const [allPokemons, setAllPokemons] = useState([]);
 	const [globalPokemons, setGlobalPokemons] = useState([]);
