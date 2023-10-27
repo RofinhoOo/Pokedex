@@ -455,3 +455,25 @@ Styles of Pokemon Single Page
 	background-color: var(--color-primary-hover);
 	color: #000;
 }
+
+ /* RESPONSIVE */
+
+ @media (max-width: 767px) {
+	body {
+	  min-width: initial;
+	  /* Restablece los estilos para pantalla pequeña aquí */
+	}
+  
+	.container {
+	  max-width: 100%;
+	  margin: 0 160px;
+	  /* Restablece los estilos para pantalla pequeña aquí */
+	}
+
+  
+	.card-list-pokemon {
+	  grid-template-columns: repeat(3, 1fr); /* Por ejemplo, 2 columnas en lugar de 4 */
+	  gap: 10px; /* Espacio más pequeño entre elementos */
+	  /* Restablece los estilos para pantalla pequeña aquí */
+	}
+  }
