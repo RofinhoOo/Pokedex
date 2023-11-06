@@ -470,9 +470,13 @@ Styles of Pokemon Single Page
 	  /* Restablece los estilos para pantalla pequeña aquí */
 	}
 
+	.logo img {
+		margin-right: 80px !important;
+	}
+
   
 	.card-list-pokemon {
-	  grid-template-columns: repeat(3, 1fr); /* Por ejemplo, 2 columnas en lugar de 4 */
+	  grid-template-columns: repeat(3, 1fr) !important; /* Por ejemplo, 2 columnas en lugar de 4 */
 	  gap: 10px; /* Espacio más pequeño entre elementos */
 	  /* Restablece los estilos para pantalla pequeña aquí */
 	}
