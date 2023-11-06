@@ -474,6 +474,16 @@ Styles of Pokemon Single Page
 		margin-right: 80px !important;
 	}
 
+	header form{
+		margin-right: 30px !important;
+	}
+
+	.btn-search{
+		margin-left: -10px !important;
+	}
+
+	
+
   
 	.card-list-pokemon {
 	  grid-template-columns: repeat(3, 1fr) !important; /* Por ejemplo, 2 columnas en lugar de 4 */
